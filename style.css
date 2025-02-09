@@ -1,0 +1,135 @@
+hr.separator {
+	border: 0;
+	border-top: 3px solid #0056b3; /* товщина і колір лінії */
+	margin: 20px 0;
+}
+
+/* Загальні стилі для сторінки */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f4f4f4; /* Світло-сірий фон */
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+/* Стилізація заголовків */
+
+h2 {
+	color: #333;
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+/* Стилізація тексту */
+article p {
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #555;
+}
+
+span {
+	color: #8b5a2b; /* Коричневий колір для виділення важливих слів */
+}
+
+/* Для відокремлення секцій */
+hr.separator {
+	border: 0;
+	height: 1px;
+	background-color: #ccc;
+	margin: 20px 0;
+}
+
+/* Стилізація блоку "Про себе" */
+article {
+	background-color: #e2e2e2; /* Світло-сірий фон для кожного блоку */
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилізація "Мое хобі" */
+h2 {
+	color: #8b5a2b;
+}
+
+/* Стилізація для інтерфейсу програмування */
+article span {
+	font-weight: bold;
+	color: #0066cc; /* Синій для технічних термінів */
+}
+
+/* Стилізація футера */
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer nav ul li {
+	margin: 10px 0;
+}
+
+footer nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Стилізація для адреси в футері */
+footer address {
+	font-style: normal;
+}
+
+footer address .signature {
+	font-size: 0.9rem;
+	color: #ccc;
+}
+
+footer address .group {
+	font-weight: bold;
+}
+
+/* Додаткові елементи для «єнотного» стилю */
+body {
+	background-image: url('https://www.example.com/repeating-wood-texture.jpg'); /* Текстура дерева */
+	background-size: cover;
+	background-position: center;
+}
+
+h2 {
+	color: #3a3a3a;
+}
+
+/* Стилізація для ссилок в тексті */
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8b5a2b;
+	text-decoration: underline;
+}
